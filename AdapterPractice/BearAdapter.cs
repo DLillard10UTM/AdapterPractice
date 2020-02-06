@@ -4,15 +4,15 @@ using System.Text;
 
 namespace AdapterPractice
 {
-    class BearAdapter : TeddyBear
+    class BearAdapter : ToyBear
     {
+        public Bear ourBear;
         public BearAdapter(Bear b)
         {
-            b = new GrizzlyBear();
+            ourBear = b;
         }
         public void hug()
         {
-            Bear ourBear = new GrizzlyBear();
             ourBear.maul();
         }
     }
