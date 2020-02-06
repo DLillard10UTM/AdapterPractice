@@ -2,6 +2,12 @@
 
 namespace AdapterPractice
 {
+
+/*
+ *  Author: Danny Lillard
+ *  Date: 2/5/2020
+ *  Description: The driver for adapter practice, runs through all possibilities of bears.
+ */
     class Program
     {
         static void Main(string[] args)
